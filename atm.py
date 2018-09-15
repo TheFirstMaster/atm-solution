@@ -1,8 +1,5 @@
 # allowed papers: 100, 50, 10, 5, and cents
 
-balance = 500
-
-request = 275
 def withdraw(balance, request):
 
     if request > balance:
@@ -41,6 +38,7 @@ def withdraw(balance, request):
                 print "the new balance = " , balance
                 return balance
 
+balance = 500
 balance = withdraw(balance, 277)
 balance = withdraw(balance, 30)
 balance = withdraw(balance, 5)
